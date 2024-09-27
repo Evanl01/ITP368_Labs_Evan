@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:bloc/bloc.dart';
 import 'lightsOutEvan.dart';
 import 'groceryHomePage.dart';
+import 'quizHomePage.dart';
 // import 'package:path_provider/path_provider.dart';
 // import 'package:path_provider_linux/path_provider_linux.dart';
 
@@ -11,7 +12,8 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   // runApp(const MyApp());
   // runApp(const LightsOutApp());
-  runApp(const GroceryApp());
+  // runApp(const GroceryApp());
+  runApp(const QuizApp());
 }
 
 class MyApp extends StatelessWidget {
