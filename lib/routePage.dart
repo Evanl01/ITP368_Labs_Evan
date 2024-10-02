@@ -25,8 +25,6 @@ class RoutePage extends StatelessWidget {
           return Column(
             children: [
               Text(pageText, style: const TextStyle(fontSize: 30)),
-              const SizedBox(height: 10),
-
               Text('${state.count}', style: const TextStyle(fontSize: 30)),
               ElevatedButton(
                 onPressed: () {
@@ -34,16 +32,12 @@ class RoutePage extends StatelessWidget {
                 },
                 child: const Text('Add 1'),
               ),
-              const SizedBox(height: 10),
-
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, nextRoute);
                 },
                 child: Text('Go to $nextRoute'),
               ),
-              const SizedBox(height: 10),
-
               ElevatedButton(
                 onPressed: () {
                   Navigator.pop(context);
