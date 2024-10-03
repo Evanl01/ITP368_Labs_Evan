@@ -21,21 +21,20 @@ class RouteApp extends StatelessWidget {
         ),
         initialRoute: '/route1',
         routes: {
-
-          '/route1': (context) => const RoutePage(
+          '/route1': (context) => RoutePage(
             title: 'Route 1',
             pageText: 'Page 1',
-            nextRoute: '/route2',
+            currentRoute: 1,
           ),
-          '/route2': (context) => const RoutePage(
+          '/route2': (context) => RoutePage(
             title: 'Route 2',
             pageText: 'Page 2',
-            nextRoute: '/route3',
+            currentRoute: 2,
           ),
-          '/route3': (context) => const RoutePage(
+          '/route3': (context) => RoutePage(
             title: 'Route 3',
             pageText: 'Page 3',
-            nextRoute: '/route1',
+            currentRoute: 3,
           ),
         },
       ),
