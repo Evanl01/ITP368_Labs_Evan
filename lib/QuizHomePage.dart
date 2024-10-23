@@ -32,8 +32,7 @@ class QuizHomePage extends StatelessWidget {
           if (state.userAnswer.isEmpty) {
             _controller.clear();
           }
-          return Padding(
-            padding: const EdgeInsets.all(16.0),
+          return Center(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
