@@ -13,9 +13,9 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   // runApp(const MyApp());
   // runApp(const LightsOutApp());
-  // runApp(const GroceryApp());
+  runApp(const GroceryApp());
   // runApp(const QuizApp());
-  runApp(const RouteApp());
+  // runApp(const RouteApp());
 }
 
 class MyApp extends StatelessWidget {

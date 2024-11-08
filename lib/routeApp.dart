@@ -13,8 +13,7 @@ class RouteApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (con
-      text) => RouteCubit(),
+      create: (context) => RouteCubit(),
       child: MaterialApp(
         title: 'Route App',
         theme: ThemeData(
